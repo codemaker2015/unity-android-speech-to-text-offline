@@ -29,4 +29,8 @@ public class VoiceTest : MonoBehaviour {
     void OnVoiceResult(string text) {
         uiText.text = text;
     }
+
+    void OnErrorResult(string text) {
+        uiText.text = text;
+    }
 }
